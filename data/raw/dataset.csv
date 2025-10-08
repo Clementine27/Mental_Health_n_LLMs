@@ -1,0 +1,4204 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Q_RecaptchaScore,C_1,E_1_1,E_2,E_3,LLM_G_1,1_LLM_S_1,1_LLM_S_2,1_LLM_S_3,1_LLM_S_4_Id,1_LLM_S_4_Name,1_LLM_S_4_Size,1_LLM_S_4_Type,1_LLM_S_5_Id,1_LLM_S_5_Name,1_LLM_S_5_Size,1_LLM_S_5_Type,1_LLM_S_6_Id,1_LLM_S_6_Name,1_LLM_S_6_Size,1_LLM_S_6_Type,1_LLM_S_7,1_LLM_S_7_1,1_LLM_S_7_2_Id,1_LLM_S_7_2_Name,1_LLM_S_7_2_Size,1_LLM_S_7_2_Type,1_LLM_S_8,1_LLM_S_9_2,1_LLM_S_9_1_Id,1_LLM_S_9_1_Name,1_LLM_S_9_1_Size,1_LLM_S_9_1_Type,2_LLM_S_1,2_LLM_S_2,2_LLM_S_3,2_LLM_S_4_Id,2_LLM_S_4_Name,2_LLM_S_4_Size,2_LLM_S_4_Type,2_LLM_S_5_Id,2_LLM_S_5_Name,2_LLM_S_5_Size,2_LLM_S_5_Type,2_LLM_S_6_Id,2_LLM_S_6_Name,2_LLM_S_6_Size,2_LLM_S_6_Type,2_LLM_S_7,2_LLM_S_7_1,2_LLM_S_7_2_Id,2_LLM_S_7_2_Name,2_LLM_S_7_2_Size,2_LLM_S_7_2_Type,2_LLM_S_8,2_LLM_S_9_2,2_LLM_S_9_1_Id,2_LLM_S_9_1_Name,2_LLM_S_9_1_Size,2_LLM_S_9_1_Type,3_LLM_S_1,3_LLM_S_2,3_LLM_S_3,3_LLM_S_4_Id,3_LLM_S_4_Name,3_LLM_S_4_Size,3_LLM_S_4_Type,3_LLM_S_5_Id,3_LLM_S_5_Name,3_LLM_S_5_Size,3_LLM_S_5_Type,3_LLM_S_6_Id,3_LLM_S_6_Name,3_LLM_S_6_Size,3_LLM_S_6_Type,3_LLM_S_7,3_LLM_S_7_1,3_LLM_S_7_2_Id,3_LLM_S_7_2_Name,3_LLM_S_7_2_Size,3_LLM_S_7_2_Type,3_LLM_S_8,3_LLM_S_9_2,3_LLM_S_9_1_Id,3_LLM_S_9_1_Name,3_LLM_S_9_1_Size,3_LLM_S_9_1_Type,4_LLM_S_1,4_LLM_S_2,4_LLM_S_3,4_LLM_S_4_Id,4_LLM_S_4_Name,4_LLM_S_4_Size,4_LLM_S_4_Type,4_LLM_S_5_Id,4_LLM_S_5_Name,4_LLM_S_5_Size,4_LLM_S_5_Type,4_LLM_S_6_Id,4_LLM_S_6_Name,4_LLM_S_6_Size,4_LLM_S_6_Type,4_LLM_S_7,4_LLM_S_7_1,4_LLM_S_7_2_Id,4_LLM_S_7_2_Name,4_LLM_S_7_2_Size,4_LLM_S_7_2_Type,4_LLM_S_8,4_LLM_S_9_2,4_LLM_S_9_1_Id,4_LLM_S_9_1_Name,4_LLM_S_9_1_Size,4_LLM_S_9_1_Type,5_LLM_S_1,5_LLM_S_2,5_LLM_S_3,5_LLM_S_4_Id,5_LLM_S_4_Name,5_LLM_S_4_Size,5_LLM_S_4_Type,5_LLM_S_5_Id,5_LLM_S_5_Name,5_LLM_S_5_Size,5_LLM_S_5_Type,5_LLM_S_6_Id,5_LLM_S_6_Name,5_LLM_S_6_Size,5_LLM_S_6_Type,5_LLM_S_7,5_LLM_S_7_1,5_LLM_S_7_2_Id,5_LLM_S_7_2_Name,5_LLM_S_7_2_Size,5_LLM_S_7_2_Type,5_LLM_S_8,5_LLM_S_9_2,5_LLM_S_9_1_Id,5_LLM_S_9_1_Name,5_LLM_S_9_1_Size,5_LLM_S_9_1_Type,LLM_S_13,LLM_S_10,LLM_S_11_1,LLM_S_12_1,LLM_S_12_2,LLM_S_12_3,LLM_S_12_4,LLM_S_12_5,LLM_S_12_6,LLM_S_12_7,LLM_S_12_8,LLM_S_14,PG_G_3_1_1,PG_G_3_1_2,PG_G_3_1_3,PG_G_3_1_4,PG_G_3_1_5,PG_G_3_1_6,PG_G_3_2_1,PG_G_3_2_2,PG_G_3_2_3,PG_G_3_2_4,PG_G_3_2_5,PG_G_3_3_1,PG_G_3_3_2,PG_G_3_3_3,PG_G_3_3_4,PG_G_3_3_5,PG_G_3_3_6,PG_G_3_4_1,PG_G_3_4_2,PG_G_3_4_3,PG_G_2_1,PG_G_4,PG_G_3_5,PG_G_6,PG_G_7,PG_G_8,PG_G_9,PG_P_1,PG_P_2,PG_UC_1,PG_UC_3_1,PG_UC_3_2,PG_UC_3_3,PG_UC_3_4,PG_UC_3_5,PG_UC_3_6,PMH_1,PMH_1_7_TEXT,PMH_3_1,PMH_3_2,PMH_3_3,PMH_3_4,PMH_3_5,PMH_3_6,PMH_3_7,PMH_3_8,PMH_3_9,NT_1,NT_1_5_TEXT,NT_2_1,NT_2_2,NT_2_3,NT_2_4,NT_2_5,NT_2_6,Dem_1,Dem_1_3_TEXT,Q103,Logistics_1,Logistics_2,Logistics_3_1
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,Q_RecaptchaScore,Do you consent to the statement listed above?,What is your age? - Age,Have you ever used a Large Language Model (LLM) while coding?,"Do you have at least one link to a coding session with an LLM (e.g., ChatGPT, Claude, Cursor) that you are willing to share?
+
+(We will provide instructions on how to do so in a later section)",How many chat sessions in which you used an LLM to code would you like to upload? (Maximum: 5 sessions),1 - Please select the type of LLM you used for the session you are uploading:,"1 - In order to share a link to a past ChatGPT session, follow the following set of instructions:
+
+
+
+How to share a ChatGPT chat session: 
+
+ 
+
+	Log into your account and navigate to the side bar with all the past chat sessions you have had.   
+	Hover over the chat session you want to share until three dots appear next to the session's header name, then click on the three dots.
+	In the pop up menu, select the “Share” option until another menu appears.  
+	In the new menu, select the “Create Link” option, then “Copy Link” and paste the copied link in the field below:","1 - In order to share a link to a past Claude chat session, follow the following set of instructions:
+
+
+
+How to share a Claude chat session:
+
+ 
+
+	Log into your Claude account and navigate to the chat session that you want to share.
+	In the upper right coner of the chat, click on the ""Share"" button. 
+	In the pop-up menu, select the ""Share"" option, then opt in for the ""Public Access"" option.   
+	Hit “Copy Link” and paste the copied link in the field below:","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 1 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Id","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 1 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Name","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 1 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Size","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 1 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Type","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 1 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Id","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 1 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Name","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 1 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Size","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 1 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Type","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 1 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Id","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 1 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Name","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 1 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Size","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 1 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Type",1 - What is the name of the model?,1 - Please share the link to a chat session with the LLM listed above here:,"Or if you prefer, upload a file to the chat session instead: - 1 - Or if you prefer, upload a file to the chat session instead: - Id","Or if you prefer, upload a file to the chat session instead: - 1 - Or if you prefer, upload a file to the chat session instead: - Name","Or if you prefer, upload a file to the chat session instead: - 1 - Or if you prefer, upload a file to the chat session instead: - Size","Or if you prefer, upload a file to the chat session instead: - 1 - Or if you prefer, upload a file to the chat session instead: - Type",1 - Would you be willing to share the coding project where you used the LLM for ?,"1 - If you prefer to share a link to the GitHub repository of the project, 
+
+	Navigate to the GitHub page of the project.
+	Click the green ""Code"" button.
+	Copy the URL to clipboard and paste it in the field below:","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 1 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Id","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 1 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Name","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 1 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Size","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 1 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Type",2 - Please select the type of LLM you used for the session you are uploading:,"2 - In order to share a link to a past ChatGPT session, follow the following set of instructions:
+
+
+
+How to share a ChatGPT chat session: 
+
+ 
+
+	Log into your account and navigate to the side bar with all the past chat sessions you have had.   
+	Hover over the chat session you want to share until three dots appear next to the session's header name, then click on the three dots.
+	In the pop up menu, select the “Share” option until another menu appears.  
+	In the new menu, select the “Create Link” option, then “Copy Link” and paste the copied link in the field below:","2 - In order to share a link to a past Claude chat session, follow the following set of instructions:
+
+
+
+How to share a Claude chat session:
+
+ 
+
+	Log into your Claude account and navigate to the chat session that you want to share.
+	In the upper right coner of the chat, click on the ""Share"" button. 
+	In the pop-up menu, select the ""Share"" option, then opt in for the ""Public Access"" option.   
+	Hit “Copy Link” and paste the copied link in the field below:","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 2 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Id","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 2 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Name","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 2 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Size","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 2 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Type","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 2 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Id","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 2 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Name","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 2 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Size","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 2 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Type","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 2 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Id","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 2 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Name","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 2 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Size","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 2 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Type",2 - What is the name of the model?,2 - Please share the link to a chat session with the LLM listed above here:,"Or if you prefer, upload a file to the chat session instead: - 2 - Or if you prefer, upload a file to the chat session instead: - Id","Or if you prefer, upload a file to the chat session instead: - 2 - Or if you prefer, upload a file to the chat session instead: - Name","Or if you prefer, upload a file to the chat session instead: - 2 - Or if you prefer, upload a file to the chat session instead: - Size","Or if you prefer, upload a file to the chat session instead: - 2 - Or if you prefer, upload a file to the chat session instead: - Type",2 - Would you be willing to share the coding project where you used the LLM for ?,"2 - If you prefer to share a link to the GitHub repository of the project, 
+
+	Navigate to the GitHub page of the project.
+	Click the green ""Code"" button.
+	Copy the URL to clipboard and paste it in the field below:","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 2 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Id","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 2 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Name","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 2 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Size","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 2 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Type",3 - Please select the type of LLM you used for the session you are uploading:,"3 - In order to share a link to a past ChatGPT session, follow the following set of instructions:
+
+
+
+How to share a ChatGPT chat session: 
+
+ 
+
+	Log into your account and navigate to the side bar with all the past chat sessions you have had.   
+	Hover over the chat session you want to share until three dots appear next to the session's header name, then click on the three dots.
+	In the pop up menu, select the “Share” option until another menu appears.  
+	In the new menu, select the “Create Link” option, then “Copy Link” and paste the copied link in the field below:","3 - In order to share a link to a past Claude chat session, follow the following set of instructions:
+
+
+
+How to share a Claude chat session:
+
+ 
+
+	Log into your Claude account and navigate to the chat session that you want to share.
+	In the upper right coner of the chat, click on the ""Share"" button. 
+	In the pop-up menu, select the ""Share"" option, then opt in for the ""Public Access"" option.   
+	Hit “Copy Link” and paste the copied link in the field below:","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 3 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Id","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 3 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Name","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 3 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Size","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 3 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Type","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 3 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Id","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 3 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Name","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 3 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Size","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 3 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Type","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 3 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Id","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 3 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Name","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 3 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Size","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 3 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Type",3 - What is the name of the model?,3 - Please share the link to a chat session with the LLM listed above here:,"Or if you prefer, upload a file to the chat session instead: - 3 - Or if you prefer, upload a file to the chat session instead: - Id","Or if you prefer, upload a file to the chat session instead: - 3 - Or if you prefer, upload a file to the chat session instead: - Name","Or if you prefer, upload a file to the chat session instead: - 3 - Or if you prefer, upload a file to the chat session instead: - Size","Or if you prefer, upload a file to the chat session instead: - 3 - Or if you prefer, upload a file to the chat session instead: - Type",3 - Would you be willing to share the coding project where you used the LLM for ?,"3 - If you prefer to share a link to the GitHub repository of the project, 
+
+	Navigate to the GitHub page of the project.
+	Click the green ""Code"" button.
+	Copy the URL to clipboard and paste it in the field below:","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 3 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Id","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 3 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Name","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 3 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Size","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 3 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Type",4 - Please select the type of LLM you used for the session you are uploading:,"4 - In order to share a link to a past ChatGPT session, follow the following set of instructions:
+
+
+
+How to share a ChatGPT chat session: 
+
+ 
+
+	Log into your account and navigate to the side bar with all the past chat sessions you have had.   
+	Hover over the chat session you want to share until three dots appear next to the session's header name, then click on the three dots.
+	In the pop up menu, select the “Share” option until another menu appears.  
+	In the new menu, select the “Create Link” option, then “Copy Link” and paste the copied link in the field below:","4 - In order to share a link to a past Claude chat session, follow the following set of instructions:
+
+
+
+How to share a Claude chat session:
+
+ 
+
+	Log into your Claude account and navigate to the chat session that you want to share.
+	In the upper right coner of the chat, click on the ""Share"" button. 
+	In the pop-up menu, select the ""Share"" option, then opt in for the ""Public Access"" option.   
+	Hit “Copy Link” and paste the copied link in the field below:","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 4 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Id","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 4 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Name","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 4 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Size","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 4 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Type","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 4 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Id","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 4 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Name","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 4 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Size","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 4 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Type","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 4 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Id","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 4 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Name","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 4 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Size","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 4 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Type",4 - What is the name of the model?,4 - Please share the link to a chat session with the LLM listed above here:,"Or if you prefer, upload a file to the chat session instead: - 4 - Or if you prefer, upload a file to the chat session instead: - Id","Or if you prefer, upload a file to the chat session instead: - 4 - Or if you prefer, upload a file to the chat session instead: - Name","Or if you prefer, upload a file to the chat session instead: - 4 - Or if you prefer, upload a file to the chat session instead: - Size","Or if you prefer, upload a file to the chat session instead: - 4 - Or if you prefer, upload a file to the chat session instead: - Type",4 - Would you be willing to share the coding project where you used the LLM for ?,"4 - If you prefer to share a link to the GitHub repository of the project, 
+
+	Navigate to the GitHub page of the project.
+	Click the green ""Code"" button.
+	Copy the URL to clipboard and paste it in the field below:","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 4 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Id","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 4 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Name","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 4 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Size","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 4 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Type",5 - Please select the type of LLM you used for the session you are uploading:,"5 - In order to share a link to a past ChatGPT session, follow the following set of instructions:
+
+
+
+How to share a ChatGPT chat session: 
+
+ 
+
+	Log into your account and navigate to the side bar with all the past chat sessions you have had.   
+	Hover over the chat session you want to share until three dots appear next to the session's header name, then click on the three dots.
+	In the pop up menu, select the “Share” option until another menu appears.  
+	In the new menu, select the “Create Link” option, then “Copy Link” and paste the copied link in the field below:","5 - In order to share a link to a past Claude chat session, follow the following set of instructions:
+
+
+
+How to share a Claude chat session:
+
+ 
+
+	Log into your Claude account and navigate to the chat session that you want to share.
+	In the upper right coner of the chat, click on the ""Share"" button. 
+	In the pop-up menu, select the ""Share"" option, then opt in for the ""Public Access"" option.   
+	Hit “Copy Link” and paste the copied link in the field below:","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 5 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Id","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 5 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Name","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 5 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Size","Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - 5 - Unfortunately, as of current, there is no way to fully document every code suggestion that you have accepted in Cursor's standard code editor.
+
+
+
+However, if you have had a chat session with Cursor's AI assistant in the side bar, there is an indirect way to share the interaction as demonstrated below: 
+
+ 
+
+How to share a Cursor chat session:
+
+ 
+
+	Open Cursor and navigate to the file with the chat session that you want to share.
+	If your chat session didn't automatically open on the side: 
+	
+		Open the command palette by hitting Ctrl + Shift + P on Windows or  Command + Shift + P  on Mac.  
+		Select the ""Cursor: Open Chat"" menu option. 
+	
+	
+	If your chat sidebar has already been opened, divert your eyes to the bottom right corner of the chat sidebar and locate the ""Past chats"" toggle menu. 
+	Select the chat session that you want to share.
+	Click on the three dots button on the upper right corner of the chat side bar.
+	Select the 'Export Chat' option in the pop-up menu. 
+	Rename the markdown file according to your preference, ensuring that it ends with "".md"" i.e. ""Example.md"". 
+	Save and upload the file in the field below: - Type","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 5 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Id","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 5 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Name","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 5 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Size","Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - 5 - Unfortunately, as of current, there is no direct way to share a chat session with VSCode Copilot without using a third-party plugin.
+
+
+
+However, there is an indirect way to share a chat without downloading anything, which will only take a couple extra steps as shown below:
+
+ 
+
+How to share a VSCode Copilot chat session: 
+
+ 
+
+	Open VS Code and navigate to the project with the chat session that you want to share.
+	If the Copilot Chat sidebar did not automatically open up: 
+	
+		If you are on Windows, hit the keyboard shortcut Ctrl+Alt+I.
+		If you are on Mac, hit Ctrl+Command+I. 
+	
+	
+	Right click on the chat and select the ""Copy All"" option in the pop-up menu. 
+	In the same window, create a new text file: 
+	
+		If you are on a Windows, hit Ctrl+N.
+		If you are on a Mac, hit Command+N. 
+	
+	
+	Paste in the content you just copied and save the file as a markdown file i.e. the name of the saved file should end with "".md"", e.g. ""Example.md"".  
+	Upload the markdown file in the field below: - Type","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 5 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Id","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 5 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Name","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 5 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Size","Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - 5 - Unfortunately, as of current, there is no direct way to share a chat session with Deepseek without using a third-party plugin.
+
+
+
+However, there is an indirect way to share the interaction in a Markdown format, which can be done by following the set of instructions below:
+
+
+
+How to share a Deepseek chat session: 
+
+ 
+
+	Open Deepseek and navigate to the session that you want to share.
+	Copy all by hitting  Ctrl + A or  Command + A. 
+	If you are on a Windows, 
+	
+		Right-click on your desktop.
+		In the pop-up menu, select ""New"", then ""Text Document"". 
+		Rename the file and end it with .md. 
+		Open the new file, paste in everything you have copied and hit save.
+	
+	
+	If you are on a Mac, 
+	
+		Hit Command + Space and type ""text"" until the TextEdit application appears as one of the options. 
+		Select ""New Document"" in the pop up menu.
+		In the new document, paste in everything you have copied and hit save.
+		In the pop up menu, name the file, end it with "".md"" and uncheck the tickbox for ""If no extension is provided, use "".txt"" "".  
+	
+	
+	Return to this questionnaire and upload the file in the field below: - Type",5 - What is the name of the model?,5 - Please share the link to a chat session with the LLM listed above here:,"Or if you prefer, upload a file to the chat session instead: - 5 - Or if you prefer, upload a file to the chat session instead: - Id","Or if you prefer, upload a file to the chat session instead: - 5 - Or if you prefer, upload a file to the chat session instead: - Name","Or if you prefer, upload a file to the chat session instead: - 5 - Or if you prefer, upload a file to the chat session instead: - Size","Or if you prefer, upload a file to the chat session instead: - 5 - Or if you prefer, upload a file to the chat session instead: - Type",5 - Would you be willing to share the coding project where you used the LLM for ?,"5 - If you prefer to share a link to the GitHub repository of the project, 
+
+	Navigate to the GitHub page of the project.
+	Click the green ""Code"" button.
+	Copy the URL to clipboard and paste it in the field below:","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 5 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Id","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 5 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Name","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 5 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Size","If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - 5 - If you prefer to upload a local copy of the project: 
+
+
+
+On a Windows machine:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Click on the ""Send to"" option in the pop-up menu.
+	Click on the ""Compressed (zipped) folder"" in the new pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below.
+
+
+
+
+On a Mac:
+	Locate the project folder you want to upload in your file directory.
+	Right click on the project folder you want to upload.
+	Select ""Compress [folder name]"" in the pop-up menu.
+	Rename the newly created zip folder to your preference.
+	Upload the zipped file in the field below. - Type",When was the session that you shared? (mm/dd/yyyy),Tick off as many as apply: What were the primary purposes of the provided session(s)?,How much of the LLM-generated code makes up the project you used the LLM for? - Percentage (%),Tick off as many as apply: How did you feel throughout the session that you have provided? - I am confident in my coding abilities without assistance from LLMs.,Tick off as many as apply: How did you feel throughout the session that you have provided? - I can control how much I rely on LLMs in my coding process.,Tick off as many as apply: How did you feel throughout the session that you have provided? - I often feel guilty about using LLMs in my coding process.,Tick off as many as apply: How did you feel throughout the session that you have provided? - I often ask LLMs for code snippets that are similar to ones I have previously asked for.,Tick off as many as apply: How did you feel throughout the session that you have provided? - I always end up with more LLM-generated code in my project than I intend to.,Tick off as many as apply: How did you feel throughout the session that you have provided? - I am well equipped to identify and correct code errors generated by LLMs.,Tick off as many as apply: How did you feel throughout the session that you have provided? - I often paste project descriptions into LLMs and directly submit the generated code without making any edits.,Tick off as many as apply: How did you feel throughout the session that you have provided? - I rarely ask LLMs to generate code for problems of the same pattern.,Use the following text field to share more:,"Factor I: Tracing Program Flow 
+I can trace the execution of a program ... - ... well.","Factor I: Tracing Program Flow 
+I can trace the execution of a program ... - .. with nested conditionals.","Factor I: Tracing Program Flow 
+I can trace the execution of a program ... - ... that uses a list/array.","Factor I: Tracing Program Flow 
+I can trace the execution of a program ... - ... that iterates over nested structures such as lists of lists or arrays of arrays.","Factor I: Tracing Program Flow 
+I can trace the execution of a program ... - ... that contains function or method calls with arguments and return values.","Factor I: Tracing Program Flow 
+I can trace the execution of a program ... - ... that uses the same variable name in different locations.","Factor II: Using Structures and Patterns for Problem Solving
+I can ... - Identify recursive patterns in a problem and write a program that exploits this structure.","Factor II: Using Structures and Patterns for Problem Solving
+I can ... - Trace the execution of a program that uses recursion.","Factor II: Using Structures and Patterns for Problem Solving
+I can ... - Design a set of classes that leverages inheritance where appropriate.","Factor II: Using Structures and Patterns for Problem Solving
+I can ... - Explain the difference between a class and an instance of a class.","Factor II: Using Structures and Patterns for Problem Solving
+I can ... - Identify which function or method was called when a class has two with the same name.","Factor III: Persistence, Debugging, and Problem Solving Competences
+I can ... - Correctly trace the execution of a program even if my prior attempts to trace similar programs have not succeeded.","Factor III: Persistence, Debugging, and Problem Solving Competences
+I can ... - Write a functioning program even if I have already spent hours fixing errors and have just found a new error.","Factor III: Persistence, Debugging, and Problem Solving Competences
+I can ... - Identify the source of an error given the design of a solution and an incorrect program.","Factor III: Persistence, Debugging, and Problem Solving Competences
+I can ... - Use a process to analyze a problem, design a solution, and implement it in code.","Factor III: Persistence, Debugging, and Problem Solving Competences
+I can ... - Design a set of tests that can be used to assess the correctness of a program.","Factor III: Persistence, Debugging, and Problem Solving Competences
+I can ... - Decompose a problem into a set of simpler subproblems.","Factor IV: Controlling Program Flow
+I can ... - Evaluate boolean expressions I encounter in a program.","Factor IV: Controlling Program Flow
+I can ... - Construct a boolean expression to represent a condition described in plain English.","Factor IV: Controlling Program Flow
+I can ... - Write a program that defines and calls functions or methods.",How many years of programming experience do you have? - Years,What is your type of occupation?,How often do you code?,How often do you use LLMs in your coding sessions?,What is the highest level of education you have attained or currently pursuing?,"Can your degree be broadly grouped under any of the following categories: Computer Science, Computer Engineering, Mathematics, Statistics, and Data Science?",Have you taken a Data Structures and/or Algorithms (online/high school/university) course?,Is your current job a software engineering position?,Does your current job require you to code?,"Have you ever held a professional position (internship, research assistantship, part-time or full-time job) where the job description has programming as the main task?",Rate your comfort with these programming tools on a 5 point scale from 1- No Exposure to 5- Fluent - Python,Rate your comfort with these programming tools on a 5 point scale from 1- No Exposure to 5- Fluent - Java,Rate your comfort with these programming tools on a 5 point scale from 1- No Exposure to 5- Fluent - JavaScript,Rate your comfort with these programming tools on a 5 point scale from 1- No Exposure to 5- Fluent - C/C++/C#,Rate your comfort with these programming tools on a 5 point scale from 1- No Exposure to 5- Fluent - Git/GitHub,Rate your comfort with these programming tools on a 5 point scale from 1- No Exposure to 5- Fluent - R/Julia/SAS,Do you have a diagnosis of or suspect yourself of having any of the following mental health disorders? Select all that apply: - Selected Choice,Do you have a diagnosis of or suspect yourself of having any of the following mental health disorders? Select all that apply: - Other - Text,Rate on a scale from 1 to 4 how much you identify with each of the following statements - I am often carefree and in good spirits.,Rate on a scale from 1 to 4 how much you identify with each of the following statements - I enjoy my life.,"Rate on a scale from 1 to 4 how much you identify with each of the following statements - All in all, I am satisfied with my life.","Rate on a scale from 1 to 4 how much you identify with each of the following statements - In general, I am confident.",Rate on a scale from 1 to 4 how much you identify with each of the following statements - I manage well to fulfill my needs.,Rate on a scale from 1 to 4 how much you identify with each of the following statements - I am in good physical and emotional condition.,Rate on a scale from 1 to 4 how much you identify with each of the following statements - I feel that I am actually well equipped to deal with life and its difficulties.,Rate on a scale from 1 to 4 how much you identify with each of the following statements - Much of what I do brings me joy.,"Rate on a scale from 1 to 4 how much you identify with each of the following statements - I am a calm, balanced human being.",Do you have a diagnosis of or suspect yourself of having any of the following neurodivergent conditions? Select all that apply: - Selected Choice,Do you have a diagnosis of or suspect yourself of having any of the following neurodivergent conditions? Select all that apply: - Other - Text,"Please answer the questions below, rating yourself on each of the criteria shown. As you answer each
+question, select the option that best describes how you have felt and conducted yourself over the past 6 months while not using medication. - How often do you have difficulty concentrating on what people say to you, even when they are speaking directly to you?","Please answer the questions below, rating yourself on each of the criteria shown. As you answer each
+question, select the option that best describes how you have felt and conducted yourself over the past 6 months while not using medication. - How often do you leave your seat in meetings or other situations in which you are expected to stay seated?","Please answer the questions below, rating yourself on each of the criteria shown. As you answer each
+question, select the option that best describes how you have felt and conducted yourself over the past 6 months while not using medication. - How often do you have difficulty unwinding and relaxing when you have time to yourself?","Please answer the questions below, rating yourself on each of the criteria shown. As you answer each
+question, select the option that best describes how you have felt and conducted yourself over the past 6 months while not using medication. - When you're in a conversation, how often do you find yourself finishing the sentences of the people you are talking to before they can finish them themselves?","Please answer the questions below, rating yourself on each of the criteria shown. As you answer each
+question, select the option that best describes how you have felt and conducted yourself over the past 6 months while not using medication. - How often do you put things off until the last minute?","Please answer the questions below, rating yourself on each of the criteria shown. As you answer each
+question, select the option that best describes how you have felt and conducted yourself over the past 6 months while not using medication. - How often do you depend on others to keep your life in order and attend to details?",What is your gender? - Selected Choice,What is your gender? - Other - Text,From what institution are you from?,Do you want to stay in contact for future research endeavors?,Do you want to be entered into the raffle to win a $50 gift card from Amazon?,Please provide your email below: - Email address
+"{""ImportId"":""startDate"",""timeZone"":""America/New_York""}","{""ImportId"":""endDate"",""timeZone"":""America/New_York""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/New_York""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""Q_RecaptchaScore""}","{""ImportId"":""QID6""}","{""ImportId"":""QID30_1""}","{""ImportId"":""QID31""}","{""ImportId"":""QID32""}","{""ImportId"":""QID24_TEXT""}","{""ImportId"":""1_QID33""}","{""ImportId"":""1_QID34_TEXT""}","{""ImportId"":""1_QID52_TEXT""}","{""ImportId"":""1_QID72_FILE_ID""}","{""ImportId"":""1_QID72_FILE_NAME""}","{""ImportId"":""1_QID72_FILE_SIZE""}","{""ImportId"":""1_QID72_FILE_TYPE""}","{""ImportId"":""1_QID76_FILE_ID""}","{""ImportId"":""1_QID76_FILE_NAME""}","{""ImportId"":""1_QID76_FILE_SIZE""}","{""ImportId"":""1_QID76_FILE_TYPE""}","{""ImportId"":""1_QID75_FILE_ID""}","{""ImportId"":""1_QID75_FILE_NAME""}","{""ImportId"":""1_QID75_FILE_SIZE""}","{""ImportId"":""1_QID75_FILE_TYPE""}","{""ImportId"":""1_QID54_TEXT""}","{""ImportId"":""1_QID77_TEXT""}","{""ImportId"":""1_QID63_FILE_ID""}","{""ImportId"":""1_QID63_FILE_NAME""}","{""ImportId"":""1_QID63_FILE_SIZE""}","{""ImportId"":""1_QID63_FILE_TYPE""}","{""ImportId"":""1_QID101""}","{""ImportId"":""1_QID80_TEXT""}","{""ImportId"":""1_QID74_FILE_ID""}","{""ImportId"":""1_QID74_FILE_NAME""}","{""ImportId"":""1_QID74_FILE_SIZE""}","{""ImportId"":""1_QID74_FILE_TYPE""}","{""ImportId"":""2_QID33""}","{""ImportId"":""2_QID34_TEXT""}","{""ImportId"":""2_QID52_TEXT""}","{""ImportId"":""2_QID72_FILE_ID""}","{""ImportId"":""2_QID72_FILE_NAME""}","{""ImportId"":""2_QID72_FILE_SIZE""}","{""ImportId"":""2_QID72_FILE_TYPE""}","{""ImportId"":""2_QID76_FILE_ID""}","{""ImportId"":""2_QID76_FILE_NAME""}","{""ImportId"":""2_QID76_FILE_SIZE""}","{""ImportId"":""2_QID76_FILE_TYPE""}","{""ImportId"":""2_QID75_FILE_ID""}","{""ImportId"":""2_QID75_FILE_NAME""}","{""ImportId"":""2_QID75_FILE_SIZE""}","{""ImportId"":""2_QID75_FILE_TYPE""}","{""ImportId"":""2_QID54_TEXT""}","{""ImportId"":""2_QID77_TEXT""}","{""ImportId"":""2_QID63_FILE_ID""}","{""ImportId"":""2_QID63_FILE_NAME""}","{""ImportId"":""2_QID63_FILE_SIZE""}","{""ImportId"":""2_QID63_FILE_TYPE""}","{""ImportId"":""2_QID101""}","{""ImportId"":""2_QID80_TEXT""}","{""ImportId"":""2_QID74_FILE_ID""}","{""ImportId"":""2_QID74_FILE_NAME""}","{""ImportId"":""2_QID74_FILE_SIZE""}","{""ImportId"":""2_QID74_FILE_TYPE""}","{""ImportId"":""3_QID33""}","{""ImportId"":""3_QID34_TEXT""}","{""ImportId"":""3_QID52_TEXT""}","{""ImportId"":""3_QID72_FILE_ID""}","{""ImportId"":""3_QID72_FILE_NAME""}","{""ImportId"":""3_QID72_FILE_SIZE""}","{""ImportId"":""3_QID72_FILE_TYPE""}","{""ImportId"":""3_QID76_FILE_ID""}","{""ImportId"":""3_QID76_FILE_NAME""}","{""ImportId"":""3_QID76_FILE_SIZE""}","{""ImportId"":""3_QID76_FILE_TYPE""}","{""ImportId"":""3_QID75_FILE_ID""}","{""ImportId"":""3_QID75_FILE_NAME""}","{""ImportId"":""3_QID75_FILE_SIZE""}","{""ImportId"":""3_QID75_FILE_TYPE""}","{""ImportId"":""3_QID54_TEXT""}","{""ImportId"":""3_QID77_TEXT""}","{""ImportId"":""3_QID63_FILE_ID""}","{""ImportId"":""3_QID63_FILE_NAME""}","{""ImportId"":""3_QID63_FILE_SIZE""}","{""ImportId"":""3_QID63_FILE_TYPE""}","{""ImportId"":""3_QID101""}","{""ImportId"":""3_QID80_TEXT""}","{""ImportId"":""3_QID74_FILE_ID""}","{""ImportId"":""3_QID74_FILE_NAME""}","{""ImportId"":""3_QID74_FILE_SIZE""}","{""ImportId"":""3_QID74_FILE_TYPE""}","{""ImportId"":""4_QID33""}","{""ImportId"":""4_QID34_TEXT""}","{""ImportId"":""4_QID52_TEXT""}","{""ImportId"":""4_QID72_FILE_ID""}","{""ImportId"":""4_QID72_FILE_NAME""}","{""ImportId"":""4_QID72_FILE_SIZE""}","{""ImportId"":""4_QID72_FILE_TYPE""}","{""ImportId"":""4_QID76_FILE_ID""}","{""ImportId"":""4_QID76_FILE_NAME""}","{""ImportId"":""4_QID76_FILE_SIZE""}","{""ImportId"":""4_QID76_FILE_TYPE""}","{""ImportId"":""4_QID75_FILE_ID""}","{""ImportId"":""4_QID75_FILE_NAME""}","{""ImportId"":""4_QID75_FILE_SIZE""}","{""ImportId"":""4_QID75_FILE_TYPE""}","{""ImportId"":""4_QID54_TEXT""}","{""ImportId"":""4_QID77_TEXT""}","{""ImportId"":""4_QID63_FILE_ID""}","{""ImportId"":""4_QID63_FILE_NAME""}","{""ImportId"":""4_QID63_FILE_SIZE""}","{""ImportId"":""4_QID63_FILE_TYPE""}","{""ImportId"":""4_QID101""}","{""ImportId"":""4_QID80_TEXT""}","{""ImportId"":""4_QID74_FILE_ID""}","{""ImportId"":""4_QID74_FILE_NAME""}","{""ImportId"":""4_QID74_FILE_SIZE""}","{""ImportId"":""4_QID74_FILE_TYPE""}","{""ImportId"":""5_QID33""}","{""ImportId"":""5_QID34_TEXT""}","{""ImportId"":""5_QID52_TEXT""}","{""ImportId"":""5_QID72_FILE_ID""}","{""ImportId"":""5_QID72_FILE_NAME""}","{""ImportId"":""5_QID72_FILE_SIZE""}","{""ImportId"":""5_QID72_FILE_TYPE""}","{""ImportId"":""5_QID76_FILE_ID""}","{""ImportId"":""5_QID76_FILE_NAME""}","{""ImportId"":""5_QID76_FILE_SIZE""}","{""ImportId"":""5_QID76_FILE_TYPE""}","{""ImportId"":""5_QID75_FILE_ID""}","{""ImportId"":""5_QID75_FILE_NAME""}","{""ImportId"":""5_QID75_FILE_SIZE""}","{""ImportId"":""5_QID75_FILE_TYPE""}","{""ImportId"":""5_QID54_TEXT""}","{""ImportId"":""5_QID77_TEXT""}","{""ImportId"":""5_QID63_FILE_ID""}","{""ImportId"":""5_QID63_FILE_NAME""}","{""ImportId"":""5_QID63_FILE_SIZE""}","{""ImportId"":""5_QID63_FILE_TYPE""}","{""ImportId"":""5_QID101""}","{""ImportId"":""5_QID80_TEXT""}","{""ImportId"":""5_QID74_FILE_ID""}","{""ImportId"":""5_QID74_FILE_NAME""}","{""ImportId"":""5_QID74_FILE_SIZE""}","{""ImportId"":""5_QID74_FILE_TYPE""}","{""ImportId"":""QID64_TEXT""}","{""ImportId"":""QID53""}","{""ImportId"":""QID81_1""}","{""ImportId"":""QID57_1""}","{""ImportId"":""QID57_2""}","{""ImportId"":""QID57_3""}","{""ImportId"":""QID57_4""}","{""ImportId"":""QID57_5""}","{""ImportId"":""QID57_6""}","{""ImportId"":""QID57_7""}","{""ImportId"":""QID57_8""}","{""ImportId"":""QID65_TEXT""}","{""ImportId"":""QID40_3""}","{""ImportId"":""QID40_1""}","{""ImportId"":""QID40_2""}","{""ImportId"":""QID40_4""}","{""ImportId"":""QID40_5""}","{""ImportId"":""QID40_6""}","{""ImportId"":""QID58_1""}","{""ImportId"":""QID58_2""}","{""ImportId"":""QID58_3""}","{""ImportId"":""QID58_4""}","{""ImportId"":""QID58_5""}","{""ImportId"":""QID59_2""}","{""ImportId"":""QID59_1""}","{""ImportId"":""QID59_3""}","{""ImportId"":""QID59_4""}","{""ImportId"":""QID59_5""}","{""ImportId"":""QID59_6""}","{""ImportId"":""QID60_1""}","{""ImportId"":""QID60_2""}","{""ImportId"":""QID60_3""}","{""ImportId"":""QID18_1""}","{""ImportId"":""QID9""}","{""ImportId"":""QID67""}","{""ImportId"":""QID21""}","{""ImportId"":""QID11""}","{""ImportId"":""QID10""}","{""ImportId"":""QID12""}","{""ImportId"":""QID71""}","{""ImportId"":""QID96""}","{""ImportId"":""QID19""}","{""ImportId"":""QID13_1""}","{""ImportId"":""QID13_2""}","{""ImportId"":""QID13_3""}","{""ImportId"":""QID13_4""}","{""ImportId"":""QID13_5""}","{""ImportId"":""QID13_6""}","{""ImportId"":""QID70""}","{""ImportId"":""QID70_7_TEXT""}","{""ImportId"":""QID23_1""}","{""ImportId"":""QID23_2""}","{""ImportId"":""QID23_3""}","{""ImportId"":""QID23_4""}","{""ImportId"":""QID23_5""}","{""ImportId"":""QID23_6""}","{""ImportId"":""QID23_7""}","{""ImportId"":""QID23_8""}","{""ImportId"":""QID23_9""}","{""ImportId"":""QID69""}","{""ImportId"":""QID69_5_TEXT""}","{""ImportId"":""QID15_1""}","{""ImportId"":""QID15_2""}","{""ImportId"":""QID15_3""}","{""ImportId"":""QID15_4""}","{""ImportId"":""QID15_5""}","{""ImportId"":""QID15_6""}","{""ImportId"":""QID7""}","{""ImportId"":""QID7_3_TEXT""}","{""ImportId"":""QID103""}","{""ImportId"":""QID47""}","{""ImportId"":""QID48""}","{""ImportId"":""QID49_1""}"
+2025-09-17 23:59:43,2025-09-18 00:03:05,IP Address,73.167.47.191,100,201,True,2025-09-18 00:03:05,R_1M6ep9p6JhDT4Gr,,,,,42.3654,-72.4671,anonymous,EN,1,I agree,25,Yes,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2025-09-18 13:07:49,2025-09-18 13:09:46,IP Address,128.119.202.19,100,117,True,2025-09-18 13:09:46,R_5FFjwFIdYSHI9Wp,,,,,42.3894,-72.5265,anonymous,EN,1,I agree,23,Yes,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2025-10-02 07:54:56,2025-10-02 08:01:43,IP Address,138.110.91.253,100,406,True,2025-10-02 08:01:43,R_7G6XlA6BsxsvCCP,,,,,42.2584,-72.5745,anonymous,EN,0.800000011920929,I agree,20,Yes,Yes,1,ChatGPT,https://chatgpt.com/share/68de6922-d988-8001-8f7c-ab05d2f633d7,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Anxiety,Depression,PTSD,Bipolar disorder",,,,,,,,,,,,,,,,,,,Woman,,Mount Holyoke College,Yes,Yes,ngo224t@mtholyoke.edu
