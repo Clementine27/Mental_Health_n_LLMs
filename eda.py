@@ -5,9 +5,13 @@ from config import RAW_DIR, INTERIM_DIR, PROCESSED_DIR, FINAL_DIR, DATASET
 def read_data(): 
     data = pd.read_csv(f"{RAW_DIR}/{DATASET}")
 
-    df = pd.DataFrame(data)
-    df.head()
+    data_pmh = data.filter(regex = 'PMH') 
+    data_pmh.head()
+    print("Done")
+
+def main(): 
+    read_data()
 
 
 if __name__ == "__main__": 
-    read_data()
+    main()

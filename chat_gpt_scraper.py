@@ -23,6 +23,34 @@ def remove_white_spaces(string):
     return re.sub(r"^\s\[", "", string.strip())
 
 
+def is_unix_time(string): 
+    '''
+    Checks to see if a given string is unix time or not 
+    
+    Args: 
+        String that needs to be checked 
+    
+    Returns: 
+        Boolean value, true when it is unix time stamp, false if else 
+    '''
+    unix_time = re.match(r'^\d{10}\.\d+$', str(string))
+    
+    if unix_time: 
+        return True 
+    return False 
+
+def convert_unix_time(unix_stamp): 
+    """
+    given unix timestamp, convert it to sth more human readable
+
+    Args:
+        unix_stamp (str): _description_
+
+    Returns:
+        str: _description_
+    """
+    return datetime.fromtimestamp(unix_stamp)
+
 
 def find_links(which_chat): 
     '''
@@ -32,28 +60,28 @@ def find_links(which_chat):
         which_chat: the type of chat that we want to pull from 
     
     Return: 
-        a Series with the found html links 
+        pdSeries:  with the found html links 
     '''
     data = pd.read_csv(f"{RAW_DIR}/{DATASET}")
     
-    # Initial cleaning of responses 
-    # read file 
+    # remove nas 
     filtered_links = data[data[which_chat].notna()][which_chat]
     
-    # remove question row
-    filtered_links = filtered_links[1:]
+    # remove question & question id rows
+    filtered_links = filtered_links[2:]
 
-    filtered_links = filtered_links.apply(remove_white_spaces)
+    # remove white spaces 
+    cleaned_links = filtered_links.apply(remove_white_spaces)
 
-    #TODO: make this not hard coded
-    final_links = filtered_links.iloc[1::2].reset_index(drop=True)
+    # reindex 
+    final_links = cleaned_links.reset_index(drop=True)
 
-    return final_links.dropna()
+    return final_links
 
 
-def link_scraper(index, link):
+def scrape_link(index, link):
     """
-    given link, creates a beautiful soup object and dump content into an html file 
+    Given link, scrape info and dump into an html file 
 
     Args: 
         link: chatgpt link that requires scraping 
@@ -63,17 +91,14 @@ def link_scraper(index, link):
     command = ["curl", "-o", f"{INTERIM_DIR}/{index}_raw_output.html",  link]
     subprocess.run(command)
 
-    # with open(f"{INTERIM_DIR}/{index}_raw_output.html", "w", encoding = "UTF-8") as file: 
-    #     file.write(response.text)
-
 
 def retrieve_the_json_portion(file_dir, number): 
     '''
-    given a soup object, find the json chunk and then save it to a seperate file 
+    given an html file, find the json chunk and dump it into a json file
     
     Args: 
-        file_dir: 
-        number: 
+        file_dir: path to html file
+        number: index of that file 
     
     '''
 
@@ -88,7 +113,6 @@ def retrieve_the_json_portion(file_dir, number):
     # are trying to pull 
     max_length = max(len(s.get_text()) for s in scripts)
 
-    # TODO: make this loop-compatible
     with open(f"{PROCESSED_DIR}/{number}_json_output.json", "w", encoding = "UTF-8") as file: 
         for s in scripts:
             # if lenght is the longest, its probs the json fiile 
@@ -103,13 +127,14 @@ def retrieve_the_json_portion(file_dir, number):
 
 def extract_json_object(string): 
     '''
+    helper method for retrieve_the_json_portion 
     given a script within a tag, extract the json bit 
     
     Args: 
-        string: the string with the json object that we want to extract 
+        string (str): the string with the json object that we want to extract 
         
     Return: 
-        the content of the json file in string format
+        str: the content of the json file in string format
     '''
     # remove the outskirts 
     stuff_to_remove = DATA_KEYWORD + re.escape('("')
@@ -130,81 +155,114 @@ def extract_json_object(string):
     return final_results
 
 
-def extract_info_from_json(file_path): 
+def create_csv_files(file_path, order_of_file): 
     """
-    extract every information from a given json path 
+    given json file path n order of file,
+    extracts important information and outputs csv file
     
     Args:
-        file_path (_type_): _description_
-        
-    Returns: 
-        long form dataframe 
+        file_path (os.path): path to json file 
+        order_of_file (int): how to number the resulting file 
+  
     """
 
-    
+    # load json file 
     with open(file_path, "r", encoding='utf-8', errors='strict') as f:
         data = json.load(f)
 
-    
+    # initialise df 
     rows = []
-
-    title_index = data.index("title")
-    title = data[title_index+1]
     
+    # meta data stuff 
+    title = ""
     create_time = 0 
     update_time = 0
-    i = 0 
-    while i < len(data): 
-        if is_unix_time(data[i]) and create_time == 0 : 
-            create_time = convert_unix_time(data[i])
-        elif is_unix_time(data[i]) and update_time == 0:     
-            update_time = convert_unix_time(data[i])
-            i = data.index(data[i])
+
+    # go through the json list 
+    for i in range(0,len(data)-1, 1): 
+        if isinstance(data[i], str) and "title" in data[i]: 
+            title = data[i+1]
+            continue
+        if not is_unix_time(data[i]): 
+            continue 
+
+        timestamp = data[i]
+        # extract file create time 
+        if create_time == 0 : 
+            create_time = convert_unix_time(timestamp)
+            continue 
             
-        elif is_unix_time(data[i]) and extract_msg(data[i], data) :  
-            timestamp =  data[i]
-            msgs = extract_msg(timestamp, data) 
-            rows.append([title, 
-                         create_time, 
-                         update_time,
-                        #  TODO make this more robust
-                         "ChatGPT" if i % 2 == 1 else "User", 
-                         convert_unix_time(timestamp), 
-                         msgs])
-        i +=1 
+        # extract file latest update time 
+        elif update_time == 0:     
+            update_time = convert_unix_time(timestamp)
+            continue 
     
-    df = pd.DataFrame(rows, columns=['title', 'create_time', "update_time", 'role', 'timestamp', 'message'])
-    
-    return df 
-    
+        # extract timestamp + message 
+        
+        # if there is a timestamp right afterwards, probs a chatgpt response 
+        elif i + 1 < len(data) and is_unix_time(data[i+1]): 
+            timestamp =  data[i+1]
+            sender = "chatgpt"
+        
+        # if there is not, check if gibberish. 
+        elif not check_if_chat_message(timestamp, data): 
+            continue
 
+        # if not, then update sender
+        else: 
+            sender = classify_sender(timestamp, data)
 
-def is_unix_time(string): 
-    '''
-    Checks to see if a given string is unix time or not 
+        message = extract_msg(timestamp, data) 
+
+        rows.append([title, 
+                        create_time, 
+                        update_time,
+                        sender, 
+                        convert_unix_time(timestamp), 
+                        message])
     
-    Args: 
-        String that needs to be checked 
-    
+    df = pd.DataFrame(rows, columns=['title', 'create_time', "update_time", 'sender', 'timestamp', 'message'])
+    df.to_csv(f"{FINAL_DIR}/{order_of_file}_extracted_chat.csv", index=False)
+
+def classify_sender(unix_stamp, data): 
+    """
+    helper method for create_csv_files
+    given unix stamp and the json list, figure out who sent message 
+    Args:
+        unix_stamp (float): an unix timestamp 
+        data (list): the json file 
+
     Returns: 
-        Boolean value, true when it is unix time stamp, false if else 
-    '''
-    unix_time = re.match(r'^\d{10}\.\d+$', str(string))
+        str: chatgpt/user 
+    """
+    # TODO: stuff
+    return "user" 
     
-    if unix_time: 
-        return True 
-    return False 
+def check_if_chat_message(unix_stamp, data): 
+    """
+    helper method for create_csv_files
+    given unix stamp and the json list, figure out if it is gibberish or chat message
+    Args:
+        unix_stamp (float): an unix timestamp 
+        data (list): the json file 
 
-def convert_unix_time(unix_stamp): 
-    return datetime.fromtimestamp(unix_stamp)
+    Returns: 
+        True if it is a valid chat message
+        False otherwise  
+    """
+    # TODO :s s
+    return True 
 
 def extract_msg(unix_stamp, data): 
     """
-    given unix stamp and the json list, find the index of the unix stamp and 
-    then  find the next instances of strings until we encounter another number or {} object
+    helper method for create_csv_files
+    given unix stamp and the json list, extract chat message
     Args:
-        unix_stamp (_type_): _description_
-        data (_type_): _description_
+        unix_stamp (float): an unix timestamp 
+        data (list): the json file 
+
+    Returns: 
+        message
     """
     curr_index = data.index(unix_stamp) + 1
     strings = []
@@ -221,127 +279,31 @@ def extract_msg(unix_stamp, data):
             curr_index = len(data)
 
     return strings[-1] 
-        # # have not entered string yet 
-        # if entered_string == False: 
-        #     curr_index += 1 
-        # # found string but its not a messgae
-        # elif isinstance(data[curr_index], str) and not isinstance(data[curr_index -1], list):
-        #     return 
-        # # start of the messages 
-        # elif isinstance(data[curr_index], str) and isinstance(data[curr_index -1], list):
-        #     strings.append(data[curr_index + 1])  
-        #     entered_string = True 
-        #     curr_index += 1
-        # # continue getting messages once entered
-        # elif isinstance(data[curr_index], str) and entered_string == True: 
-        #     strings.append(data[curr_index])  
-        #     curr_index += 1
-        # # have already entered string and the next bits are not strings 
-        # elif entered_string == True and not isinstance(data[curr_index], str):
-        #     return
-    
-    # if strings: 
-    #     return strings[-1]  
-    
+       
 if __name__ == "__main__": 
+
     # get all the html links from the raw data file 
     html_links = find_links(CHAT_GPT_QUESTION)
 
     # for every links found, scrape the link for the file structure and output in interim the results 
     for index, links in html_links.items(): 
-        link_scraper(index, links)
-    print("Done parsing links")
+        scrape_link(index, links)
+    print("Done creating HTML files")
 
     # for every html file in interim, extract relevant json object then ouput in processed
-    order_of_file = 0 
     for file in os.listdir(INTERIM_DIR):
+        order_of_file = file[0] 
         file_path = os.path.join(INTERIM_DIR, file)
         retrieve_the_json_portion(file_path, order_of_file)
-        order_of_file += 1 
     print("Done converting to JSON files")
     
     # for every json file in processed, extract relevant info then ouput in csv format in final
     final_order = 0 
     for file in os.listdir(PROCESSED_DIR):
+        order_of_file = file[0] 
         file_path = os.path.join(PROCESSED_DIR, file)
-        results = extract_info_from_json(file_path)
-        results.to_csv(f"{FINAL_DIR}/{final_order}_extracted_chat.csv", index=False)
-        
-        final_order += 1 
-   
-    print("Done extracting information from JSON files")
+        create_csv_files(file_path, order_of_file)    
+    print("Done creating final CSV files")
 
 
-
-
-
-
-
-# def process_info(html_file): 
-#     """
-#     given an html file in the raw file directory, pull out the chat content and meta data, 
-#     put the data in their respective columns and dump results in a csv file
-#     in the interim directory
-
-#     html_file: the path of the parsed html file in the raw dir. that requires processing
-
-#     """
-#     # TODO: loop to number the files using f string 
-#     with open("results_from_html.csv", "w", encoding= "UTF-8") as file: 
-#         find_title(html_file)
-#         find_text(html_file)
-#         find_time()
-
-
-# def find_title(html_file): 
-#     """
-#     goes into the provided html file and find the title of the chat 
-
-#     html_file: the file that requires info extraction 
-
-#     return: string that gets the tile of teh 
-#     """
-
-#     with open(raw_file_path, "r") as file: 
-#         for line in file: 
-#             if "<title>" in line: 
-#                 line += 1
-#                 print(line)
-
-
-# def get_stuff_btw_tags(file_path, tag): 
-#     """
-#     get info between the first instance of the specified tags  
-
-#     return: the info wedged between the opening and closing tag with the same 
-#     """
-#     opening_tag = f"<{tag} [^>]*>"
-#     closing_tag = f"</{tag}>" 
-#     with open(file_path, "r") as file: 
-#         for line in file: 
-#             # find the opening tag 
-#             if opening_tag in line: 
-#                 # get the info wedged between the opening_tag and the closing one, regardless of diffreent lines 
-#                 tag_content = ""
-#                 return tag_content
-
-
-
-# def find_text(raw_file_path): 
-#     """
-#     find the text field that the user put into the chat
-
-#     raw_file_path: the raw file path w the text that requires pulling 
-#     return: the string with the user prompt 
-#     """
-#     # find script tag
-#     with open(raw_file_path, 'r') as file:
-#         for line in file:
-#             # TODO: regex it so that there can be anything in nonce" 
-#             # looks like a chat specific code though? pls get more chats to double check 
-#             if "<script nonce=" in line: 
-#                 line += 1
-#                 if "window.__reactRouterContext.streamController.enqueue(" in line: 
-#                     # TODO: print from that line 
-#                     print(line)
 
