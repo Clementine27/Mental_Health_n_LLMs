@@ -7,7 +7,7 @@ import os
 import json
 import subprocess
 from datetime import datetime
-from config import RAW_DIR, INTERIM_DIR, PROCESSED_DIR, FINAL_DIR, DATASET, DATA_KEYWORD, CHAT_GPT_QUESTION
+from mentalLLM.config import RAW_DIR, INTERIM_DIR, PROCESSED_DIR, FINAL_DIR, DATASET, DATA_KEYWORD, CHAT_GPT_QUESTION
 
 
 def remove_white_spaces(string): 
@@ -23,17 +23,17 @@ def remove_white_spaces(string):
     return re.sub(r"^\s\[", "", string.strip())
 
 
-def is_unix_time(string): 
+def is_unix_time(object): 
     '''
     Checks to see if a given string is unix time or not 
     
     Args: 
-        String that needs to be checked 
+        object that needs to be checked 
     
     Returns: 
         Boolean value, true when it is unix time stamp, false if else 
     '''
-    unix_time = re.match(r'^\d{10}\.\d+$', str(string))
+    unix_time = re.match(r'^\d{10}\.\d+$', str(object))
     
     if unix_time: 
         return True 
@@ -51,7 +51,6 @@ def convert_unix_time(unix_stamp):
     """
     return datetime.fromtimestamp(unix_stamp)
 
-
 def find_links(which_chat): 
     '''
     go through the csv file and find the column that contains the specified type of chat links 
@@ -62,14 +61,16 @@ def find_links(which_chat):
     Return: 
         pdSeries:  with the found html links 
     '''
-    data = pd.read_csv(f"{RAW_DIR}/{DATASET}")
-    
-    # remove nas 
-    filtered_links = data[data[which_chat].notna()][which_chat]
-    
-    # remove question & question id rows
-    filtered_links = filtered_links[2:]
+    data = pd.read_csv(f"./{RAW_DIR}/{DATASET}")
+    chat_links_cols = data.filter(regex= f'{which_chat}$', axis=1)
 
+    # remove nas
+    answers = chat_links_cols.iloc[2:, :]
+    # concat
+    chat_series = answers.stack()
+
+    filtered_links = chat_series[chat_series.notna()]
+    
     # remove white spaces 
     cleaned_links = filtered_links.apply(remove_white_spaces)
 
@@ -77,7 +78,6 @@ def find_links(which_chat):
     final_links = cleaned_links.reset_index(drop=True)
 
     return final_links
-
 
 def scrape_link(index, link):
     """
@@ -91,8 +91,7 @@ def scrape_link(index, link):
     command = ["curl", "-o", f"{INTERIM_DIR}/{index}_raw_output.html",  link]
     subprocess.run(command)
 
-
-def retrieve_the_json_portion(file_dir, number): 
+def retrieve_the_json_portion(file_dir): 
     '''
     given an html file, find the json chunk and dump it into a json file
     
@@ -113,7 +112,7 @@ def retrieve_the_json_portion(file_dir, number):
     # are trying to pull 
     max_length = max(len(s.get_text()) for s in scripts)
 
-    with open(f"{PROCESSED_DIR}/{number}_json_output.json", "w", encoding = "UTF-8") as file: 
+    with open(f"{PROCESSED_DIR}/{file_dir[0]}_json_output.json", "w", encoding = "UTF-8") as file: 
         for s in scripts:
             # if lenght is the longest, its probs the json fiile 
             if len(s.get_text()) == max_length:
@@ -123,8 +122,6 @@ def retrieve_the_json_portion(file_dir, number):
 
                 file.write(json_bit)
                 
-
-
 def extract_json_object(string): 
     '''
     helper method for retrieve_the_json_portion 
@@ -155,7 +152,7 @@ def extract_json_object(string):
     return final_results
 
 
-def create_csv_files(file_path, order_of_file): 
+def create_csv_files(file_path): 
     """
     given json file path n order of file,
     extracts important information and outputs csv file
@@ -180,13 +177,17 @@ def create_csv_files(file_path, order_of_file):
 
     # go through the json list 
     for i in range(0,len(data)-1, 1): 
+        sender = ""
+        # extract title 
         if isinstance(data[i], str) and "title" in data[i]: 
             title = data[i+1]
             continue
+
         if not is_unix_time(data[i]): 
             continue 
 
         timestamp = data[i]
+
         # extract file create time 
         if create_time == 0 : 
             create_time = convert_unix_time(timestamp)
@@ -201,19 +202,26 @@ def create_csv_files(file_path, order_of_file):
         
         # if there is a timestamp right afterwards, probs a chatgpt response 
         elif i + 1 < len(data) and is_unix_time(data[i+1]): 
+            print("data at ", i, "is ", data[i], "anddd second cond state is ", is_unix_time(data[i+1]))
+
             timestamp =  data[i+1]
             sender = "chatgpt"
-        
+            
+        # deal w the extra timestamp
+        elif  i - 1  > 0 and is_unix_time(data[i-1]) : 
+            continue
+
         # if there is not, check if gibberish. 
         elif not check_if_chat_message(timestamp, data): 
             continue
 
-        # if not, then update sender
-        else: 
-            sender = classify_sender(timestamp, data)
-
+        # if not, get the message 
         message = extract_msg(timestamp, data) 
 
+        if 'sender' != "": 
+            sender = classify_sender(message)
+
+        # update rows 
         rows.append([title, 
                         create_time, 
                         update_time,
@@ -222,26 +230,37 @@ def create_csv_files(file_path, order_of_file):
                         message])
     
     df = pd.DataFrame(rows, columns=['title', 'create_time', "update_time", 'sender', 'timestamp', 'message'])
-    df.to_csv(f"{FINAL_DIR}/{order_of_file}_extracted_chat.csv", index=False)
+    df.to_csv(f"{FINAL_DIR}/{file_path[0]}_extracted_chat.csv", index=False)
+    # df.to_csv(f"{FINAL_DIR}/{order_of_file}_extracted_chat.csv", index=False)
 
-def classify_sender(unix_stamp, data): 
+
+def classify_sender(message): 
     """
     helper method for create_csv_files
     given unix stamp and the json list, figure out who sent message 
-    Args:
-        unix_stamp (float): an unix timestamp 
-        data (list): the json file 
+     Args:
+        message (str): a message extracted 
 
     Returns: 
         str: chatgpt/user 
     """
-    # TODO: stuff
-    return "user" 
+    msg_raw = repr(message)
+    if msg_raw[0] == "\\'": 
+        return "chatgpt" 
+    return "user"
+    # return bool(re.match(r'.*("\""|"\'").*', message[0]))
+    # message_raw = repr(message)[1:]
+    # state =  bool(re.fullmatch(r'.*[\']".*', message_raw))
+    # if state: 
+    #     return "chatgpt"
+    # return "user" 
+
     
 def check_if_chat_message(unix_stamp, data): 
     """
     helper method for create_csv_files
     given unix stamp and the json list, figure out if it is gibberish or chat message
+   
     Args:
         unix_stamp (float): an unix timestamp 
         data (list): the json file 
@@ -250,7 +269,7 @@ def check_if_chat_message(unix_stamp, data):
         True if it is a valid chat message
         False otherwise  
     """
-    # TODO :s s
+    # TODO 
     return True 
 
 def extract_msg(unix_stamp, data): 
@@ -278,31 +297,33 @@ def extract_msg(unix_stamp, data):
         else: 
             curr_index = len(data)
 
-    return strings[-1] 
+    return repr(str(strings[-1]))
        
 if __name__ == "__main__": 
+  
+    # create_csv_files(f"{PROCESSED_DIR}/8_json_output.json", 9)
 
-    # get all the html links from the raw data file 
-    html_links = find_links(CHAT_GPT_QUESTION)
+    # # get all the html links from the raw data file 
+    # html_links = find_links(CHAT_GPT_QUESTION)
 
-    # for every links found, scrape the link for the file structure and output in interim the results 
-    for index, links in html_links.items(): 
-        scrape_link(index, links)
-    print("Done creating HTML files")
+    # # for every links found, scrape the link for the file structure and output in interim the results 
+    # for index, links in html_links.items(): 
+    #     scrape_link(index, links)
+    # print("Done creating HTML files")
 
-    # for every html file in interim, extract relevant json object then ouput in processed
-    for file in os.listdir(INTERIM_DIR):
-        order_of_file = file[0] 
-        file_path = os.path.join(INTERIM_DIR, file)
-        retrieve_the_json_portion(file_path, order_of_file)
-    print("Done converting to JSON files")
+    # # for every html file in interim, extract relevant json object then ouput in processed
+    # for file in os.listdir(INTERIM_DIR):
+    #     order_of_file = file[0] 
+    #     file_path = os.path.join(INTERIM_DIR, file)
+    #     retrieve_the_json_portion(file_path)
+    # print("Done converting to JSON files")
     
     # for every json file in processed, extract relevant info then ouput in csv format in final
-    final_order = 0 
+
     for file in os.listdir(PROCESSED_DIR):
-        order_of_file = file[0] 
+        # order_of_file = file[0] 
         file_path = os.path.join(PROCESSED_DIR, file)
-        create_csv_files(file_path, order_of_file)    
+        create_csv_files(file_path)    
     print("Done creating final CSV files")
 
 
